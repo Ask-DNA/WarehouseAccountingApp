@@ -1,0 +1,17 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\WarehouseAccountingApp.Domain\WarehouseAccountingApp.Domain.csproj" />
+    <ProjectReference Include="..\WarehouseAccountingApp.Infrastructure.Console\WarehouseAccountingApp.Infrastructure.Console.csproj" />
+    <ProjectReference Include="..\WarehouseAccountingApp.Infrastructure.Database\WarehouseAccountingApp.Infrastructure.Database.csproj" />
+    <ProjectReference Include="..\WarehouseAccountingApp.UseCases\WarehouseAccountingApp.UseCases.csproj" />
+  </ItemGroup>
+
+</Project>
