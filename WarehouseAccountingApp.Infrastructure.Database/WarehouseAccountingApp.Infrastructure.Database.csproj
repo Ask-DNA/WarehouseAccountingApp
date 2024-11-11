@@ -7,6 +7,12 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="8.0.10" />
+    <PackageReference Include="Npgsql.EntityFrameworkCore.PostgreSQL" Version="8.0.10" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\WarehouseAccountingApp.Domain\WarehouseAccountingApp.Domain.csproj" />
     <ProjectReference Include="..\WarehouseAccountingApp.UseCases\WarehouseAccountingApp.UseCases.csproj" />
   </ItemGroup>
 
